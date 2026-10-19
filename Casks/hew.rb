@@ -3,8 +3,8 @@
 # .github/workflows/packaging.yml into the hew3d/homebrew-tap repository (see
 # packaging/README.md).
 cask "hew" do
-  version "1.2.2"
-  sha256 "1e60cc3cd48525346f3a3ac25796a0d5de8800d4d20caa275dc4ddbe47161b23"
+  version "1.2.3"
+  sha256 "0031a5cc642627b6f73482b61a519d9e3c24c44ef76676abafa56731aedbc8cf"
 
   url "https://github.com/hew3d/hew/releases/download/v#{version}/Hew_#{version}_universal.dmg"
   name "Hew"
